@@ -2,12 +2,12 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #2e1818;
+    background-color: #262121;
 }
 li,a,button{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 20px;
     color: #edf0f1;
     text-decoration: none;
 }
@@ -19,7 +19,7 @@ header{
 }
 .logo{
     height: auto;
-    width: 250px;
+    width: 275px;
     cursor: pointer;
 }
 
@@ -37,11 +37,11 @@ header{
 }
 
 .nav__links li a:hover {
-    color: red;
+    color: rgb(255, 121, 121);
 }
 
 button{
-    padding: 9px 25px;
+    padding: 7px 35px;
     background-color: rgba(186,0,0,1);
     border: none;
     border-radius: 50px;
