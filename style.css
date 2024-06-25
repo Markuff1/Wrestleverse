@@ -18,31 +18,35 @@ body{
     background-repeat: repeat;
 }
 .container{
-    padding: 10px 10%;
+    padding-top: 1%;
 }
 nav{
     display: flex;
     align-items: center;
+    background-image: url(Red.jpg);
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
 .logo{
-  width: 300px;
+  width: 400px;
   height: auto;  
+  padding-left: 70px ;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 
 nav ul li{
     display: inline-block;
     list-style: none;
-    margin: 10px 20px;
+    margin: 10px 10px;
 }
 
 nav ul li a{
     color: #fff;
     text-decoration: none;
-    font-size: 24;
+    font-size: 20px;
     position: relative;
 }
 nav ul li a::after{
@@ -62,6 +66,7 @@ nav ul li a:hover::after{
     color: #fff;
     margin-top: 20%;
     font-size: 30px;
+    padding: 10px 10%;
 }
 .header-text h1{
     color: #fff;
