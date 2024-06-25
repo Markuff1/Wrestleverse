@@ -23,7 +23,7 @@ body{
 nav{
     display: flex;
     align-items: center;
-    background-image: url(Red.jpg);
+    background-color: red ;
     justify-content: space-between;
     flex-wrap: wrap;
 }
