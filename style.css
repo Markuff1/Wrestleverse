@@ -18,11 +18,22 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
+    background-color: rgb(87, 0, 0);
 }
 .logo{
     height: auto;
     width: 275px;
     cursor: pointer;
+}
+
+.logo2{
+    height: auto;
+    width: 900px;
+    float: right;
+    margin-top: 120px;
+    margin-right: 120px;
+    opacity: 0.4;
+    
 }
 
 .nav__links{
@@ -54,20 +65,6 @@ button{
 button:hover{
     background-color: rgba(186,0,0,0.5);
 }
-
-.popup{
-    position: absolute;
-    top: -150%;
-    left: 50%;
-    opacity: 0;
-    transform: translate(-50%,-50%) scale(1.25);
-    width: 380px;
-    padding: 20px, 30px;
-    background: #fff;
-    box-shadow: 2px 2px 5px 5px rgba(255, 255, 255, 0.15);
-    border-radius: 10px;
-    transition: top 0ms ease-in-out 200ms,
-                opacity 200ms ease-in-out 0ms,
-                transform 20ms ease-in-out 0ms,;
-    
+onpage{
+    color: rgb(255, 121, 121);
 }
