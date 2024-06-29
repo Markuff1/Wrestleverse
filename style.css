@@ -4,8 +4,9 @@
     padding: 0;
 }
 body{
-    background-color: #262121;
+background: rgb(6, 0, 0);
 }
+
 li,a,button{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 500;
@@ -17,24 +18,47 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
+    padding: 20px 10%;
     background-color: rgb(87, 0, 0);
+    Top: 0;
+    left: 0;
+    right: 0;
 }
+endborder{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: rgb(87, 0, 0);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
 .logo{
     height: auto;
-    width: 275px;
+    width: 15%;
     cursor: pointer;
 }
 
 .logo2{
     height: auto;
-    width: 900px;
+    width: 30%;
     float: right;
-    margin-top: 120px;
+    margin-top: 150px;
+    margin-left: 300px;
     margin-right: 120px;
     opacity: 0.4;
     
 }
+
+maintext{
+    display: flex;
+    align-items: center;
+}
+
+
 
 .nav__links{
     list-style: none;
@@ -67,4 +91,17 @@ button:hover{
 }
 onpage{
     color: rgb(255, 121, 121);
+}
+
+/* All Text Configurtions */
+
+h2{
+    color: rgb(255, 255, 255);
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 150px;
+    font-size: 305%;
+    font-weight: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    clear: right;
 }
