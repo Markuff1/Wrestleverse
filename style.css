@@ -43,20 +43,15 @@ Endborder{
 }
 
 .logo2{
+    position: fixed;
     height: auto;
-    width: 30%;
-    float: right;
-    margin-top: 150px;
-    margin-left: 300px;
-    margin-right: 120px;
+    width: 30;
+    right: 70px;
+    top: 275px;
     opacity: 0.4;
     
 }
 
-.maintext{
-    display: flex;
-    align-items: center;
-}
 
 nav .fas{
     color: white;
