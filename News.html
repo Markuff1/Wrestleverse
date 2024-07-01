@@ -11,17 +11,17 @@
         <header>
             <img src="WrestleVerseLogo.png" class = "logo">
             <nav>
-                <ul class="nav__links">
+                <ul class="nav__links" id="sidemenu">
                     <li><a href="/index.html">Home</a></li>
                     <li><onpage>News</onpage></li>
                     <li><a href="/Shows.html">Shows</a></li>
                     <li><a href="/Superstars.html">Superstars</a></li>
                     <li><a href="/Feedback.html">Feedback</a></li>
+                    <li><button class="Login">Login</button></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
                 </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
             </nav>
-            <div class="center">
-                <button>Login/SignUp</button>
-            </div>
         </header>
        <script src="/script.js"></script> 
        <script src="https://kit.fontawesome.com/83f76d927e.js" crossorigin="anonymous"></script>
