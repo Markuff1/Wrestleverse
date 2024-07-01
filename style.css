@@ -4,7 +4,7 @@
     padding: 0;
 }
 body{
-background: rgb(6, 0, 0);
+background: rgb(9, 10, 9);
 }
 
 li,a,button{
@@ -19,16 +19,16 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 20px 10%;
-    background-color: rgb(87, 0, 0);
+    background-color: rgb(55, 92, 55);
     Top: 0;
     left: 0;
     right: 0;
 }
-endborder{
+Endborder{
     display: flex;
     justify-content: space-between;
     padding: 40px;
-    background-color: rgb(87, 0, 0);
+    background-color: rgb(55, 92, 55);
     position: fixed;
     bottom: 0;
     left: 0;
@@ -53,12 +53,15 @@ endborder{
     
 }
 
-maintext{
+.maintext{
     display: flex;
     align-items: center;
 }
 
-
+nav .fas{
+    color: white;
+    font-size: 25px;
+}
 
 .nav__links{
     list-style: none;
@@ -77,9 +80,18 @@ maintext{
     color: rgb(255, 121, 121);
 }
 
-button{
+.Login{
     padding: 7px 35px;
-    background-color: rgba(186,0,0,1);
+    background-color: rgb(0, 146, 0);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.SubmitBut{
+    padding: 7px 35px;
+    background-color: rgb(0, 146, 0);
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -87,13 +99,22 @@ button{
 }
 
 button:hover{
-    background-color: rgba(186,0,0,0.5);
+    background-color: rgba(0, 143, 29, 0.5);
 }
 onpage{
-    color: rgb(255, 121, 121);
+    color: rgb(121, 255, 128);
 }
 
 /* All Text Configurtions */
+
+h1{
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-size: 350%;
+    font-weight: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    clear: right;
+}
 
 h2{
     color: rgb(255, 255, 255);
@@ -104,4 +125,223 @@ h2{
     font-weight: 500px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     clear: right;
+}
+
+h3{
+    color: rgb(255, 255, 255);
+    padding-top: 30px;
+    margin-left: 15px;
+    font-size: 200%;
+    font-weight: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    clear: right;
+}
+
+h4{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 50px;
+    font-size: 350%;
+    font-weight: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    clear: right;
+}
+
+h5{
+    color: rgb(255, 255, 255);
+    padding-top: 30px;
+    margin-left: 15px;
+    font-size: 200%;
+    font-weight: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    clear: right;
+}
+
+
+/* Contact */
+
+.contact-left{
+    flex-basis: 60%;
+}
+
+.contact-right{
+    flex-basis: 35%;
+}
+
+.contact-left p{
+    margin-top: 30px;
+}
+
+.contact-left p i{
+    color: rgb(255, 255, 255);
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+.social-icons {
+    margin-top: 30px;
+}
+
+.social-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 15px;
+    color: #ababaa;
+    display: inline-block;
+    transition: transform(0.5s);
+}
+
+.social-icons a:hover{
+    color: #00ff6e;
+    transform: translateY(-5px);
+}
+
+.contact-right form{
+    width: 100%;
+}
+
+form input, form textarea{
+    width: 100%;
+    border: 0%;
+    outline: none;
+    background: #262622;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.container{
+    padding: 20px 20%;
+}
+
+nav .fas{
+    display: none;
+}
+
+@media only screen and (max-width:600px){
+
+    /* All Mobile Text Configurtions */
+
+    h1{
+        color: rgb(255, 255, 255);
+        font-size: 100%;
+        font-weight: 500px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    h2{
+        color: rgb(255, 255, 255);
+        text-align: center;
+        margin-left: 30px;
+        margin-top: 30px;
+        font-size: 85%;
+        font-weight: 500px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        clear: right;
+    }
+
+    h3{
+        color: rgb(255, 255, 255);
+        padding-top: 30px;
+        margin-left: 15px;
+        font-size: 60%;
+        font-weight: 500px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        clear: right;
+    }
+
+    h4{
+        color: rgb(255, 255, 255);
+        text-align: center;
+        padding-top: 50px;
+        font-size: 100%;
+        font-weight: 500px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        clear: right;
+    }
+
+    h5{
+        color: rgb(255, 255, 255);
+        padding-top: 30px;
+        margin-left: 15px;
+        font-size: 60%;
+        font-weight: 500px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        clear: right;
+    }
+
+    .logo{
+        height: auto;
+        width: 65%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        cursor: pointer;
+    }
+    
+    .logo2{
+        display: block;
+        margin: 100px auto 20px;
+        height: auto;
+        width: 75%;
+        opacity: 0.4;
+        z-index: -1;
+        
+    }
+
+    nav .fas{
+        display: block;
+        font-size: 25px;
+    }
+
+    nav ul{
+        background: rgb(34, 79, 34);
+        position: fixed;
+        top: 0;
+        right: -150px;
+        width: 150px;
+        height: 100vh;
+        padding-top: 40px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+
+    nav ul li{
+        display: block;
+        margin: 15px;
+    }
+
+    nav ul .fas{
+        position: absolute;
+        top: 20px;
+        margin-bottom: 20px;
+        left: 12px;
+        cursor: pointer;
+    }
+
+    .Login{
+        padding: 3px 15px;
+        background-color: rgb(0, 146, 0);
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+    }
+
+    li,a,button{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 300;
+        font-size: 15px;
+        color: #edf0f1;
+        text-decoration: none;
+    }
+
+
 }
