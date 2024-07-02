@@ -18,8 +18,9 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 10%;
+    padding: 10px 10%;
     background-color: rgb(55, 92, 55);
+    position: fixed;
     Top: 0;
     left: 0;
     right: 0;
@@ -27,7 +28,7 @@ header{
 Endborder{
     display: flex;
     justify-content: space-between;
-    padding: 40px;
+    padding: 20px;
     background-color: rgb(55, 92, 55);
     position: fixed;
     bottom: 0;
@@ -111,16 +112,49 @@ h1{
     clear: right;
 }
 
-h2{
+.titlepage{
     color: rgb(255, 255, 255);
     text-align: left;
     margin-left: 100px;
-    margin-top: 150px;
-    font-size: 305%;
+    margin-top: 500px;
+    font-size: 505%;
     font-weight: 500px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     clear: right;
 }
+
+.subtext1{
+    color: rgb(255, 255, 255);
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 15px;
+    font-size: 120%;
+    font-weight: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    clear: right;
+}
+
+.subtitle2{
+    color: rgb(255, 255, 255);
+    padding-top: 30px;
+    margin-left: 15px;
+    font-size: 300%;
+    font-weight: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    clear: right;
+}
+
+h2{
+    color: rgb(255, 255, 255);
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 300px;
+    font-size: 505%;
+    font-weight: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    clear: right;
+}
+
 
 h3{
     color: rgb(255, 255, 255);
@@ -135,7 +169,7 @@ h3{
 h4{
     color: rgb(255, 255, 255);
     text-align: center;
-    padding-top: 50px;
+    padding-top: 200px;
     font-size: 350%;
     font-weight: 500px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -143,6 +177,16 @@ h4{
 }
 
 h5{
+    color: rgb(255, 255, 255);
+    margin-top: 40px;
+    margin-left: 15px;
+    font-size: 200%;
+    font-weight: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    clear: right;
+}
+
+h6{
     color: rgb(255, 255, 255);
     padding-top: 30px;
     margin-left: 15px;
@@ -174,16 +218,16 @@ h5{
 }
 
 .social-icons {
-    margin-top: 30px;
+    margin-top: 45px;
 }
 
 .social-icons a{
     text-decoration: none;
-    font-size: 30px;
-    margin-left: 15px;
-    color: #ababaa;
+    font-size: 40px;
+    margin-left: 30px;
+    color: #ffffff;
     display: inline-block;
-    transition: transform(0.5s);
+    transition: transform(1s);
 }
 
 .social-icons a:hover{
@@ -199,10 +243,10 @@ form input, form textarea{
     width: 100%;
     border: 0%;
     outline: none;
-    background: #262622;
+    background: #3f3f3f;
     padding: 15px;
     margin: 15px 0;
-    color: #fff;
+    color: #ffffff;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
     border-radius: 6px;
@@ -214,14 +258,30 @@ form input, form textarea{
 
 }
 .container{
-    padding: 20px 20%;
+    padding: 10px 10%;
 }
 
 nav .fas{
     display: none;
 }
 
+#msg{
+    color: #004b20;
+    margin-top: 20px;
+    display: block;
+    font-size: 120%;
+    font-weight: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
 @media only screen and (max-width:600px){
+
+    body{
+        background-image: url("MobileBG.png");
+        background-repeat: no-repeat;
+        background-size: 375px 667px;
+        }
 
     /* All Mobile Text Configurtions */
 
@@ -232,15 +292,38 @@ nav .fas{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
 
+    .titlepage{
+        color: rgb(255, 255, 255);
+        text-align: center;
+        margin-top: 185px;
+        margin-left: 40px;
+        margin-right: 40px;
+        font-size: 140%;
+        font-weight: 500px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+    
+    .subtext1{
+        color: rgb(255, 255, 255);
+        text-align: center;
+        margin-left: 40px;
+        margin-right: 40px;
+        top: 0;
+        font-size: 90%;
+        font-weight: 500px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
     h2{
         color: rgb(255, 255, 255);
         text-align: center;
+        position: relative;
         margin-left: 30px;
         margin-top: 30px;
-        font-size: 85%;
+        font-size: 120%;
         font-weight: 500px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        clear: right;
     }
 
     h3{
@@ -283,12 +366,7 @@ nav .fas{
     }
     
     .logo2{
-        display: block;
-        margin: 100px auto 20px;
-        height: auto;
-        width: 75%;
-        opacity: 0.4;
-        z-index: -1;
+        width: 0%;
         
     }
 
@@ -339,5 +417,87 @@ nav .fas{
         text-decoration: none;
     }
 
+    /*Contact for Mobile*/
 
+    .contact-left{
+        flex-basis: 60%;
+    }
+    
+    .contact-right{
+        flex-basis: 35%;
+    }
+    
+    .contact-left p{
+        margin-top: 5px;
+    }
+    
+    .contact-left p i{
+        color: rgb(255, 255, 255);
+        margin-right: 15px;
+        font-size: 20px;
+    }
+
+    .social-icons {
+        margin-top: 10px;
+    }
+    
+    .social-icons a{
+        text-decoration: none;
+        font-size: 17px;
+        margin-left: 5px;
+        color: #ffffff;
+        display: inline-block;
+        transition: transform(1s);
+    }
+    
+    .social-icons a:hover{
+        color: #00ff6e;
+        transform: translateY(-5px);
+    }
+    
+    .contact-right form{
+        width: 100%;
+    }
+    
+    form input, form textarea{
+        width: 100%;
+        border: 0%;
+        outline: none;
+        background: #3f3f3f;
+        padding: 10px;
+        margin: 15px 0;
+        color: #ffffff;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 9px;
+        border-radius: 2px;
+    }
+
+    .subtitle2{
+        color: rgb(255, 255, 255);
+        padding-top: 5px;
+        margin-left: 5px;
+        font-size: 100%;
+        font-weight: 500px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        clear: right;
+    }
+
+    .subtitle3{
+        color: rgb(255, 255, 255);
+        padding-top: 5px;
+        margin-left: 5px;
+        font-size: 70%;
+        font-weight: 500px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        clear: right;
+    }
+    .row{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    
+    }
+    .container{
+        padding: 15px 7%;
+    }
 }
