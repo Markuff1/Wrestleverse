@@ -73,7 +73,7 @@ nav .fas{
 }
 
 .nav__links li a:hover {
-    color: rgb(255, 121, 121);
+    color: rgb(208, 255, 66);
 }
 
 .Login{
@@ -98,7 +98,7 @@ button:hover{
     background-color: rgba(0, 143, 29, 0.5);
 }
 onpage{
-    color: rgb(121, 255, 128);
+    color: rgb(208, 255, 66);
 }
 
 /* All Text Configurtions */
@@ -166,14 +166,6 @@ h3{
     clear: right;
 }
 
-.newstitle{
-    color: rgb(255, 0, 0);
-    text-align: center;
-    padding-top: 10px;
-    font-size: 100%;
-    font-weight: 500px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
-}
 
 h4{
     color: rgb(255, 255, 255);
@@ -275,7 +267,7 @@ nav .fas{
 }
 
 #msg{
-    color: #004b20;
+    color: #607168;
     margin-top: 20px;
     display: block;
     font-size: 120%;
@@ -285,11 +277,3 @@ nav .fas{
 }
 
 /*------------News Page-------------*/
-.NewsTitle{
-    color: rgb(255, 0, 0);
-    text-align: center;
-    padding-top: 10px;
-    font-size: 100%;
-    font-weight: 500px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
-}
