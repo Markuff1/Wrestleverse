@@ -1,0 +1,235 @@
+@media only screen and (max-width:600px){
+
+    .mobilebackgroundimage{
+        background-image: url("MobileBG.png");
+        background-repeat: no-repeat;
+        background-size: 375px 667px;
+    }
+
+    body{
+        background: rgb(9, 10, 9);
+    }
+
+
+
+    /* All Mobile Text Configurtions */
+
+    h1{
+        color: rgb(255, 255, 255);
+        font-size: 100%;
+        font-weight: 500px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .titlepage{
+        color: rgb(255, 255, 255);
+        text-align: center;
+        margin-top: 185px;
+        margin-left: 40px;
+        margin-right: 40px;
+        font-size: 140%;
+        font-weight: 500px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+    
+    .subtext1{
+        color: rgb(255, 255, 255);
+        text-align: center;
+        margin-left: 40px;
+        margin-right: 40px;
+        top: 0;
+        font-size: 90%;
+        font-weight: 500px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    h2{
+        color: rgb(255, 255, 255);
+        text-align: center;
+        position: relative;
+        margin-left: 30px;
+        margin-top: 30px;
+        font-size: 120%;
+        font-weight: 500px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    h3{
+        color: rgb(255, 255, 255);
+        padding-top: 30px;
+        margin-left: 15px;
+        font-size: 60%;
+        font-weight: 500px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        clear: right;
+    }
+
+
+    h4{
+        color: rgb(255, 255, 255);
+        text-align: center;
+        padding-top: 100px;
+        font-size: 100%;
+        font-weight: 500px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        clear: right;
+    }
+
+    h5{
+        color: rgb(255, 255, 255);
+        padding-top: 30px;
+        margin-left: 15px;
+        font-size: 60%;
+        font-weight: 500px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        clear: right;
+    }
+
+    .logo{
+        height: auto;
+        width: 65%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        cursor: pointer;
+    }
+    
+    .logo2{
+        width: 0%;
+        
+    }
+
+    nav .fas{
+        display: block;
+        font-size: 25px;
+    }
+
+    nav ul{
+        background: rgb(34, 79, 34);
+        position: fixed;
+        top: 0;
+        right: -150px;
+        width: 150px;
+        height: 100vh;
+        padding-top: 40px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+
+    nav ul li{
+        display: block;
+        margin: 15px;
+    }
+
+    nav ul .fas{
+        position: absolute;
+        top: 20px;
+        margin-bottom: 20px;
+        left: 12px;
+        cursor: pointer;
+    }
+
+    .Login{
+        padding: 3px 15px;
+        background-color: rgb(0, 146, 0);
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+    }
+
+    li,a,button{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 300;
+        font-size: 15px;
+        color: #edf0f1;
+        text-decoration: none;
+    }
+
+    /*Contact for Mobile*/
+
+    .contact-left{
+        flex-basis: 60%;
+    }
+    
+    .contact-right{
+        flex-basis: 35%;
+    }
+    
+    .contact-left p{
+        margin-top: 5px;
+    }
+    
+    .contact-left p i{
+        color: rgb(255, 255, 255);
+        margin-right: 15px;
+        font-size: 20px;
+    }
+
+    .social-icons {
+        margin-top: 10px;
+    }
+    
+    .social-icons a{
+        text-decoration: none;
+        font-size: 17px;
+        margin-left: 5px;
+        color: #ffffff;
+        display: inline-block;
+        transition: transform(1s);
+    }
+    
+    .social-icons a:hover{
+        color: #00ff6e;
+        transform: translateY(-5px);
+    }
+    
+    .contact-right form{
+        width: 100%;
+    }
+    
+    form input, form textarea{
+        width: 100%;
+        border: 0%;
+        outline: none;
+        background: #3f3f3f;
+        padding: 10px;
+        margin: 15px 0;
+        color: #ffffff;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 9px;
+        border-radius: 2px;
+    }
+
+    .subtitle2{
+        color: rgb(255, 255, 255);
+        padding-top: 5px;
+        margin-left: 5px;
+        font-size: 100%;
+        font-weight: 500px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        clear: right;
+    }
+
+    .subtitle3{
+        color: rgb(255, 255, 255);
+        padding-top: 5px;
+        margin-left: 5px;
+        font-size: 70%;
+        font-weight: 500px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        clear: right;
+    }
+    .row{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    
+    }
+    .container{
+        padding: 15px 7%;
+    }
+
+/*------------News Page-------------*/
+}
