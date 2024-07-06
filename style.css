@@ -4,8 +4,9 @@
     padding: 0;
 }
 body{
-background: rgb(9, 10, 9);
+background: rgb(0, 0, 0);
 }
+
 
 li,a,button{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -277,3 +278,105 @@ nav .fas{
 }
 
 /*------------News Page-------------*/
+
+.news{
+    background-image: url(/Images/GreenBackground.jpg); 
+    background-size: cover;
+}
+
+.container2{
+    padding: 10px 10%;
+    background: rgb(111, 126, 112);
+    background-clip: content-box;
+}
+
+.NewsBanner{
+        padding-top: 145px;
+        padding-bottom: 30px;
+        height: auto;
+        width: 100%;
+        opacity: 1;
+}
+
+.NewsHeaders{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 400%;
+    font-weight: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/*------------Shows Page-------------*/
+
+.shows{
+    background-image: url(Images/GreenBackground.jpg); 
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+
+.container2{
+    padding: 20px 20%;
+    background-image: url(Images/DarkBackground.jpg);
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-clip: content-box;
+}
+
+.ShowBanner{
+    padding-top: 145px;
+    padding-bottom: 30px;
+    height: auto;
+    width: 100%;
+    opacity: 1;
+}
+
+.ShowHeaders{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 400%;
+    font-weight: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ShowImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 55%;
+    outline-color: black;
+    outline-style: solid;
+    outline-width: 4px;
+    opacity: 1;
+    align-items: center;
+}
+
+.PreviousShows{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 90px;
+    height: auto;
+    width: 15%;
+    outline-color: black;
+    outline-style: solid;
+    outline-width: 4px;
+    opacity: 1;
+    align-items: center;
+}
+
+/* Subpage Banner */
+
+.PPVBanner{
+    display: block;
+    margin-top: 145px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 100%;
+    opacity: 1;
+    align-items: center;
+}
