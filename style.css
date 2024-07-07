@@ -359,8 +359,8 @@ nav .fas{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 90px;
-    height: auto;
-    width: 15%;
+    height: 65%;
+    width: 90%;
     outline-color: black;
     outline-style: solid;
     outline-width: 4px;
@@ -368,7 +368,20 @@ nav .fas{
     align-items: center;
 }
 
-/* Subpage Banner */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+/* PPV Subpage CSS */
 
 .PPVBanner{
     display: block;
@@ -379,4 +392,36 @@ nav .fas{
     width: 100%;
     opacity: 1;
     align-items: center;
+}
+
+.PPVLocation{
+    color: rgb(255, 255, 255);
+    padding-left: 50px;
+    padding-top: 30px;
+    font-size: 150%;
+    font-weight: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.PPVDate{
+    color: rgb(255, 255, 255);
+    padding-top: 30px;
+    padding-right: 50px;
+    font-size: 150%;
+    font-weight: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.PPVInfo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.PPVTitle{
+    color: rgb(255, 255, 255);
+    padding-top: 30px;
+    font-size: 400%;
+    font-weight: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
 }
