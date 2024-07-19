@@ -4,7 +4,19 @@
     padding: 0;
 }
 body{
-background: rgb(0, 0, 0);
+    --color-primary:rgb(55, 92, 55);
+    --color-primary-dark:rgb(0, 50, 0);
+    --color-primary-light:rgb(208, 255, 66);
+    --color-secondary:#85de00;
+    --color-button:rgb(0, 146, 0);
+    --color-button-hover:rgb(0, 143, 29,0.5);
+    --color-font:rgb(255,255,255);
+
+    --color-tab:rgb(44, 44, 44);
+    --color-SD-hover:rgb(55, 172, 255);
+    --color-RAW-hover:rgb(255, 74, 74);
+    --color-ECW-hover:rgb(172, 77, 255);
+    background: rgb(0, 0, 0);
 }
 
 
@@ -12,7 +24,7 @@ li,a,button{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 500;
     font-size: 20px;
-    color: #edf0f1;
+    color: var(--color-font);
     text-decoration: none;
 }
 header{
@@ -20,7 +32,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 10px 10%;
-    background-color: rgb(55, 92, 55);
+    background-color: var(--color-primary);
     position: fixed;
     Top: 0;
     left: 0;
@@ -30,7 +42,7 @@ Endborder{
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    background-color: rgb(55, 92, 55);
+    background-color: var(--color-primary);
     position: fixed;
     bottom: 0;
     left: 0;
@@ -56,7 +68,7 @@ Endborder{
 
 
 nav .fas{
-    color: white;
+    color: var(--color-font);
     font-size: 25px;
 }
 
@@ -74,12 +86,12 @@ nav .fas{
 }
 
 .nav__links li a:hover {
-    color: rgb(208, 255, 66);
+    color: var(--color-primary-light);
 }
 
 .Login{
     padding: 7px 35px;
-    background-color: rgb(0, 146, 0);
+    background-color: var(--color-button);
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -88,7 +100,7 @@ nav .fas{
 
 .SubmitBut{
     padding: 7px 35px;
-    background-color: rgb(0, 146, 0);
+    background-color: var(--color-button);
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -96,16 +108,16 @@ nav .fas{
 }
 
 button:hover{
-    background-color: rgba(0, 143, 29, 0.5);
+    background-color: var(--color-button-hover);
 }
 onpage{
-    color: rgb(208, 255, 66);
+    color: var(--color-primary-light);
 }
 
 /* All Text Configurtions */
 
 h1{
-    color: rgb(255, 255, 255);
+    color: var(--color-font);
     text-align: left;
     font-size: 350%;
     font-weight: 500px;
@@ -114,7 +126,7 @@ h1{
 }
 
 .titlepage{
-    color: rgb(255, 255, 255);
+    color: var(--color-font);
     text-align: left;
     margin-left: 100px;
     margin-top: 500px;
@@ -125,7 +137,7 @@ h1{
 }
 
 .subtext1{
-    color: rgb(255, 255, 255);
+    color: var(--color-font);
     text-align: left;
     margin-left: 100px;
     margin-top: 15px;
@@ -136,7 +148,7 @@ h1{
 }
 
 .subtitle2{
-    color: rgb(255, 255, 255);
+    color: var(--color-font);
     padding-top: 30px;
     margin-left: 15px;
     font-size: 300%;
@@ -146,7 +158,7 @@ h1{
 }
 
 h2{
-    color: rgb(255, 255, 255);
+    color: var(--color-font);
     text-align: left;
     margin-left: 100px;
     margin-top: 300px;
@@ -158,7 +170,7 @@ h2{
 
 
 h3{
-    color: rgb(255, 255, 255);
+    color: var(--color-font);
     padding-top: 30px;
     margin-left: 15px;
     font-size: 200%;
@@ -169,7 +181,7 @@ h3{
 
 
 h4{
-    color: rgb(255, 255, 255);
+    color: var(--color-font);
     text-align: center;
     padding-top: 200px;
     font-size: 350%;
@@ -179,7 +191,7 @@ h4{
 }
 
 h5{
-    color: rgb(255, 255, 255);
+    color: var(--color-font);
     margin-top: 40px;
     margin-left: 15px;
     font-size: 200%;
@@ -189,7 +201,7 @@ h5{
 }
 
 h6{
-    color: rgb(255, 255, 255);
+    color: var(--color-font);
     padding-top: 30px;
     margin-left: 15px;
     font-size: 200%;
@@ -214,7 +226,7 @@ h6{
 }
 
 .contact-left p i{
-    color: rgb(255, 255, 255);
+    color: var(--color-font);
     margin-right: 15px;
     font-size: 25px;
 }
@@ -300,7 +312,7 @@ nav .fas{
 }
 
 .NewsHeaders{
-    color: rgb(255, 255, 255);
+    color: var(--color-font);
     text-align: center;
     font-size: 400%;
     font-weight: 500px;
@@ -333,7 +345,7 @@ nav .fas{
 }
 
 .ShowHeaders{
-    color: rgb(255, 255, 255);
+    color: var(--color-font);
     text-align: center;
     padding-top: 25px;
     padding-bottom: 25px;
@@ -362,8 +374,8 @@ nav .fas{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
-    height: 150px;
-    width: 255px;
+    height: 80%;
+    width: 75%;
     outline-color: black;
     outline-style: solid;
     outline-width: 4px;
@@ -371,21 +383,21 @@ nav .fas{
 }
 
 .column {
-    width: 33%;
+    width: 25%;
     padding: 2px;
-  }
+}
   
 
-  .row::after {
+.row::after {
     clear: both;
     display: table;
-  }
+}
 
 /* PPV Subpage CSS */
 
 .PPVBanner{
     display: block;
-    margin-top: 145px;
+    margin-top: 7%;
     margin-left: auto;
     margin-right: auto;
     height: auto;
@@ -395,19 +407,19 @@ nav .fas{
 }
 
 .PPVLocation{
-    color: rgb(255, 255, 255);
-    padding-left: 50px;
-    padding-top: 30px;
+    color: var(--color-font);
+    padding-left: 3%;
+    padding-top: 1%;
     font-size: 150%;
     font-weight: 500px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .PPVDate{
-    color: rgb(255, 255, 255);
-    padding-top: 30px;
-    padding-right: 50px;
-    font-size: 150%;
+    color: var(--color-font);
+    padding-right: 3%;
+    padding-top: 1%;
+    font-size: 125%;
     font-weight: 500px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -418,16 +430,16 @@ nav .fas{
 }
 
 .PPVTitle{
-    color: rgb(255, 255, 255);
+    color: var(--color-font);
     padding-top: 30px;
     font-size: 500%;
-    font-weight: 500px;
+    font-weight: 300%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
 }
 
 .PPVSubTitle1{
-    color: rgb(255, 255, 255);
+    color: var(--color-font);
     padding-top: 30px;
     padding-bottom: 10px;
     font-size: 375%;
@@ -437,7 +449,7 @@ nav .fas{
 }
 
 .PPVSubTitle2{
-    color: rgb(255, 255, 255);
+    color: var(--color-font);
     padding-top: 30px;
     padding-bottom: 50px;
     font-size: 375%;
@@ -447,7 +459,7 @@ nav .fas{
 }
 
 .PPVMC{
-    color: rgb(255, 255, 255);
+    color: var(--color-font);
     padding-top: 30px;
     padding-bottom: 25px;
 
@@ -463,7 +475,7 @@ nav .fas{
 }
 
 .PPVMCTitle{
-    color: rgb(255, 255, 255);
+    color: var(--color-font);
     padding-top: 30px;
     font-size: 350%;
     font-weight: 500px;
@@ -472,7 +484,7 @@ nav .fas{
 }
 
 .PPVMCChampionship{
-    color: rgb(255, 255, 255);
+    color: var(--color-font);
     padding-top: 10px;
     font-size: 150%;
     font-weight: 500px;
@@ -481,7 +493,7 @@ nav .fas{
 }
 
 .PPVMCMatchType{
-    color: rgb(255, 255, 255);
+    color: var(--color-font);
     padding-top: 10px;
     padding-bottom: 30px;
     font-size: 125%;
@@ -508,4 +520,351 @@ nav .fas{
     border:none;
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+
+/* Weekly Show Pages */
+
+.WeeklySubTitle1{
+    color: var(--color-font);
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 375%;
+    font-weight: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.WeeklySubTitle2{
+    color: var(--color-font);
+    padding-top: 30px;
+    padding-bottom: 50px;
+    font-size: 200%;
+    font-weight: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.ShowDescript{
+    color: var(--color-font);
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-size: 150%;
+    font-weight: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.centerRoster{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+
+/*Champions*/
+
+.WWEChampion{
+    margin-bottom: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: auto;
+    width: 15%;
+    opacity: 1;
+    background:url(/Images/SuperstarProfiles/ChampionBackgrounds/WWEChampion.png);
+    background-size: 100% 100%;
+}
+.ICChampion{
+    margin-bottom: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: auto;
+    width: 15%;
+    opacity: 1;
+    background:url(/Images/SuperstarProfiles/ChampionBackgrounds/ICChampion.png);
+    background-size: 100% 100%;
+}
+.RawTagTeamChampions{
+    margin-bottom: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: auto;
+    width: 15%;
+    opacity: 1;
+    background:url(/Images/SuperstarProfiles/ChampionBackgrounds/RawTagChampions.png);
+    background-size: 100% 100%;
+}
+.WomensWorldChampion{
+    margin-bottom: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: auto;
+    width: 15%;
+    opacity: 1;
+    background:url(/Images/SuperstarProfiles/ChampionBackgrounds/WomensWorldChampion.png);
+    background-size: 100% 100%;
+}
+
+
+
+
+.WorldChampion{
+    margin-bottom: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: auto;
+    width: 15%;
+    opacity: 1;
+    background:url(/Images/SuperstarProfiles/ChampionBackgrounds/WorldChampion.png);
+    background-size: 100% 100%;
+}
+.USChampion{
+    margin-bottom: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: auto;
+    width: 15%;
+    opacity: 1;
+    background:url(/Images/SuperstarProfiles/ChampionBackgrounds/USChampion.png);
+    background-size: 100% 100%;
+}
+.SDTagTeamChampions{
+    margin-bottom: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: auto;
+    width: 15%;
+    opacity: 1;
+    background:url(/Images/SuperstarProfiles/ChampionBackgrounds/SDTagTeamChampions.png);
+    background-size: 100% 100%;
+}
+.WWEWomensChampion{
+    margin-bottom: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: auto;
+    width: 15%;
+    opacity: 1;
+    background:url(/Images/SuperstarProfiles/ChampionBackgrounds/WWEWomensChampion.png);
+    background-size: 100% 100%;
+}
+
+
+
+.ECWWorldChampion{
+    margin-bottom: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: auto;
+    width: 15%;
+    opacity: 1;
+    background:url(/Images/SuperstarProfiles/ChampionBackgrounds/ECWWorldChampion.png);
+    background-size: 100% 100%;
+}
+.ECWTVChampion{
+    margin-bottom: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: auto;
+    width: 15%;
+    opacity: 1;
+    background:url(/Images/SuperstarProfiles/ChampionBackgrounds/ECWTVChampion.png);
+    background-size: 100% 100%;
+}
+.ECWTagTeamChampions{
+    margin-bottom: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: auto;
+    width: 15%;
+    opacity: 1;
+    background:url(/Images/SuperstarProfiles/ChampionBackgrounds/ECWTagTeamChampions.png);
+    background-size: 100% 100%;
+}
+.ECWWomensChampion{
+    margin-bottom: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: auto;
+    width: 15%;
+    opacity: 1;
+    background:url(/Images/SuperstarProfiles/ChampionBackgrounds/ECWWomensChampion.png);
+    background-size: 100% 100%;
+}
+
+
+
+
+.SuperstarProfiles{
+    margin-bottom: 50px;
+    height: auto;
+    width: 14%;
+    opacity: 1;
+    background-image: url(/Images/RAWBackground.png);
+}
+
+
+
+
+
+
+
+
+
+
+/*RAW PAGE */
+
+.RAW{
+    background-image: url(/Images/RAWBackground.png); 
+    background-size: 50%, 1px;
+    background-repeat: repeat;
+}
+
+.Rawtab {
+    overflow: hidden;
+    background-color: var(--color-tab);
+    color: var(--color-font);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+  
+  /* Style the buttons inside the tab */
+.Rawtab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.1s;
+    font-size: 0.7vw;
+    color: var(--color-font);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+  
+  /* Change background color of buttons on hover */
+.Rawtab button:hover {
+    color: var(--color-RAW-hover);
+}
+
+
+  /* Create an active/current tablink class */
+.Rawtab button.active {
+    color: var(--color-RAW-light);
+}
+  
+  /* Style the tab content */
+.tabcontent {
+    margin-bottom: 200px;
+    display: none;
+    border-top: none;
+}
+
+
+
+
+
+
+
+/*SD PAGE */
+
+.SD{
+    background-image: url(/Images/SDBackground.png); 
+    background-size: 50%, 1px;
+    background-repeat: repeat;
+}
+
+
+.SDTab {
+    overflow: hidden;
+    background-color: var(--color-tab);
+    color: var(--color-font);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+  
+  /* Style the buttons inside the tab */
+.SDTab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.1s;
+    font-size: 0.7vw;
+    color: var(--color-font);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+  
+  /* Change background color of buttons on hover */
+.SDTab button:hover {
+    color: var(--color-SD-hover);
+}
+
+
+  /* Create an active/current tablink class */
+.SDTab button.active {
+    color: var(--color-SD-hover);
+}
+  
+  /* Style the tab content */
+.tabcontent {
+    margin-bottom: 200px;
+    display: none;
+    border-top: none;
+}
+
+
+
+
+
+
+
+
+/*ECW PAGE */
+
+.ECW{
+    background-image: url(/Images/ECWBackground.png); 
+    background-size: 50%, 1px;
+    background-repeat: repeat;
+}
+
+.ECWtab {
+    overflow: hidden;
+    background-color: var(--color-tab);
+    color: var(--color-font);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+  
+  /* Style the buttons inside the tab */
+.ECWtab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.1s;
+    font-size: 0.7vw;
+    color: var(--color-font);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+  
+  /* Change background color of buttons on hover */
+.ECWtab button:hover {
+    color: var(--color-ECW-hover);
+}
+
+
+  /* Create an active/current tablink class */
+.ECWtab button.active {
+    color: var(--color-ECW-hover);
+}
+  
+  /* Style the tab content */
+.tabcontent {
+    margin-bottom: 200px;
+    display: none;
+    border-top: none;
 }

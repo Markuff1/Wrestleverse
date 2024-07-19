@@ -11,7 +11,7 @@
 <body>
     <div class="containerLogin">
         <img src="Images/WrestleVerseLogo.png" class="logo">
-        <form class="form" id="Login" action="process-form.php" method ="post">
+        <form class="form" id="Login">
             <h1 class="form__title">Login</h1>
             <div class="form__message form__message--error"></div>
             <div class="form__input-group">
@@ -29,12 +29,15 @@
             <p class="form__text">
                 <a class="form__link" href="./" id="linkCreateAccount" >Don't have an account? Create an Account</a>
             </p>
+            <p class="form__text">
+                <a class="form__link" href="index.html" >Are you an Admin? Click here</a>
+            </p>
         </form>
 
 
 
 
-        <form class="form form--hidden" id="createAccount" action="process-form.php" method ="post">
+        <form class="form form--hidden" id="createAccount">
             <h1 class="form__title">Create Account</h1>
             <div class="form__message form__message--error"></div>
             <div class="form__input-group">

@@ -3,12 +3,13 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>WrestleVerse | Superstars</title>
+        <title>WrestleVerse | RAW</title>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="mobilestyle.css">
         <link rel = "icon" href = "Images/WrestleVerseSymbol.png">
     </head>
-    <body>
+    <body class="RAW">
+    <div class="container2">
         <header>
             <img src="Images/WrestleVerseLogo.png" class = "logo">
             <nav>
@@ -16,7 +17,7 @@
                     <li><a href="/index.html">Home</a></li>
                     <li><a href="/News.html">News</a></li>
                     <li><a href="/Shows.html">Shows</a></li>
-                    <li><onpage>Superstars</onpage></li>
+                    <li><a href="/Superstars.html">Superstars</a></li>
                     <li><a href="/Feedback.html">Feedback</a></li>
                     <li><button class="Login">Login</button></li>
                     <i class="fas fa-times" onclick="closemenu()"></i>
@@ -24,8 +25,76 @@
                 <i class="fas fa-bars" onclick="openmenu()"></i>
             </nav>
         </header>
-       <script src="/script.js"></script> 
+        <img src="Images/RAWHeader.png" class = "PPVBanner">
+        <div class="PPVInfo">
+            <div class="PPVLocation">Location: Arena Near You</div>
+            <div class="PPVDate">Date/Time: 7PM EST, Every Monday night</div>
+        </div>
+        <div class="PPVTitle">RAW</div>
+        <div class="ShowDescript">This is the page for the longest running weekly episodic television show in history</div>
+        <div class="Rawtab">
+            <button class="tablinks" onclick="openCity(event, 'ALL')">ALL</button>
+            <button class="tablinks" onclick="openCity(event, 'Champions')">Champions</button>
+            <button class="tablinks" onclick="openCity(event, 'Men')">Men</button>
+            <button class="tablinks" onclick="openCity(event, 'Women')">Women</button>
+            <button class="tablinks" onclick="openCity(event, 'Tag Teams')">Tag Teams</button>
+          </div>
+          
+          <div id="ALL" class="tabcontent" style="display: block;">
+              <div class="WeeklySubTitle1">Whole Current Roster</div>
+              <div class="WeeklySubTitle2">Champions</div>
+              <div class="centerRoster">
+                  <td><img src="/Images/SuperstarProfiles/CodyRhodes.png" alt="" class="WWEChampion"></td>
+                  <td><img src="/Images/SuperstarProfiles/Gunther.png" alt="" class="ICChampion"></td>
+                  <td><img src="/Images/SuperstarProfiles/CreedBrothers.png" alt="" class="RawTagTeamChampions"></td>
+                  <td><img src="/Images/SuperstarProfiles/RondaRousey.png" alt="" class="WomensWorldChampion"></td>
+              </div>
+              <div class="WeeklySubTitle2">Men</div>
+              <div class="centerRoster">
+                  <td><img src="/Images/SuperstarProfiles/Andrade.png" alt="" class="SuperstarProfiles"></td>
+                  <td><img src="/Images/SuperstarProfiles/AustinTheory.png" alt="" class="SuperstarProfiles"></td>
+                  <td><img src="/Images/SuperstarProfiles/BaronCorbin.png" alt="" class="SuperstarProfiles"></td>
+                  <td><img src="/Images/SuperstarProfiles/Batista.png" alt="" class="SuperstarProfiles"></td>
+                  <td><img src="/Images/SuperstarProfiles/BraunStrowman.png" alt="" class="SuperstarProfiles"></td>
+                  <td><img src="/Images/SuperstarProfiles/CarmeloHayes.png" alt="" class="SuperstarProfiles"></td>
+              </div>
+          </div>
+
+
+
+
+
+
+
+          <div id="Champions" class="tabcontent" style="display: none;">
+            <div class="WeeklySubTitle2">Champions</div>
+            <div class="centerRoster">
+                <td><img src="/Images/SuperstarProfiles/CodyRhodes.png" alt="" class="WWEChampion"></td>
+                <td><img src="/Images/SuperstarProfiles/Gunther.png" alt="" class="ICChampion"></td>
+                <td><img src="/Images/SuperstarProfiles/CreedBrothers.png" alt="" class="RawTagTeamChampions"></td>
+                <td><img src="/Images/SuperstarProfiles/RondaRousey.png" alt="" class="WomensWorldChampion"></td>
+            </div>
+        </div>
+
+
+
+
+        <div id="Men" class="tabcontent" style="display: block;">
+            <div class="WeeklySubTitle1">Men</div>
+            <div class="centerRoster">
+                <td><img src="/Images/SuperstarProfiles/Andrade.png" alt="" class="SuperstarProfiles"></td>
+                <td><img src="/Images/SuperstarProfiles/AustinTheory.png" alt="" class="SuperstarProfiles"></td>
+                <td><img src="/Images/SuperstarProfiles/BaronCorbin.png" alt="" class="SuperstarProfiles"></td>
+                <td><img src="/Images/SuperstarProfiles/Batista.png" alt="" class="SuperstarProfiles"></td>
+                <td><img src="/Images/SuperstarProfiles/BraunStrowman.png" alt="" class="SuperstarProfiles"></td>
+                <td><img src="/Images/SuperstarProfiles/CarmeloHayes.png" alt="" class="SuperstarProfiles"></td>
+            </div>
+        </div>
+
+
+        <script src="/script.js"></script> 
        <script src="https://kit.fontawesome.com/83f76d927e.js" crossorigin="anonymous"></script>
        <Endborder></Endborder>
+    </div>
     </body>
 </html>
