@@ -8,7 +8,8 @@
         <link rel="stylesheet" href="mobilestyle.css">
         <link rel = "icon" href = "Images/WrestleVerseSymbol.png">
     </head>
-    <body>
+    <body class="shows">
+    <div class="container2">
         <header>
             <img src="Images/WrestleVerseLogo.png" class = "logo">
             <nav>
@@ -24,8 +25,50 @@
                 <i class="fas fa-bars" onclick="openmenu()"></i>
             </nav>
         </header>
+        <img src="Images/Superstars.jpg" class = "PPVBanner">
+        <div class="Generaltab">
+            <button class="tablinks" onclick="openCity(event, 'ALL')">ALL</button>
+            <button class="tablinks" onclick="openCity(event, 'Champions')">Champions</button>
+            <button class="tablinks" onclick="openCity(event, 'Men')">Men</button>
+            <button class="tablinks" onclick="openCity(event, 'Women')">Women</button>
+            <button class="tablinks" onclick="openCity(event, 'Tag Teams')">Tag Teams</button>
+          </div>
+          
+          <div id="ALL" class="tabcontent" style="display: block;">
+            <div class="WeeklySubTitle2">Whole Current Roster</div>
+            <div class="centerRoster">
+                <td><img src="/Images/SuperstarProfiles/CMPunk.png" alt="" class="WorldChampion"></td>
+            </div>
+        </div>
+
+        <div id="Champions" class="tabcontent" style="display: none;">
+          <div class="WeeklySubTitle2">Champions</div>
+          <div class="centerRoster">
+            <td><img src="/Images/SuperstarProfiles/CodyRhodes.png" alt="" class="WWEChampion"></td>
+            <td><img src="/Images/SuperstarProfiles/Gunther.png" alt="" class="ICChampion"></td>
+            <td><img src="/Images/SuperstarProfiles/CreedBrothers.png" alt="" class="RawTagTeamChampions"></td>
+            <td><img src="/Images/SuperstarProfiles/RondaRousey.png" alt="" class="WomensWorldChampion"></td>
+        </div>
+        <div class="centerRoster">
+            <td><img src="/Images/SuperstarProfiles/CMPunk.png" alt="" class="WorldChampion"></td>
+            <td><img src="/Images/SuperstarProfiles/DIJAK.png" alt="" class="USChampion"></td>
+            <td><img src="/Images/SuperstarProfiles/DIY.png" alt="" class="SDTagTeamChampions"></td>
+            <td><img src="/Images/SuperstarProfiles/LivMorgan.png" alt="" class="WWEWomensChampion"></td>
+        </div>
+        <div class="centerRoster">
+            <td><img src="/Images/SuperstarProfiles/Kane.png" alt="" class="ECWWorldChampion"></td>
+            <td><img src="/Images/SuperstarProfiles/Sandman.png" alt="" class="ECWTVChampion"></td>
+            <td><img src="/Images/SuperstarProfiles/LWO.png" alt="" class="ECWTagTeamChampions"></td>
+            <td><img src="/Images/SuperstarProfiles/RoxannePerez.png" alt="" class="ECWWomensChampion"></td>
+        </div>
+      </div>
+
+
+
+
        <script src="/script.js"></script> 
        <script src="https://kit.fontawesome.com/83f76d927e.js" crossorigin="anonymous"></script>
        <Endborder></Endborder>
+    </div>
     </body>
 </html>

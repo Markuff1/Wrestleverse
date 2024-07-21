@@ -13,6 +13,7 @@ body{
     --color-font:rgb(255,255,255);
 
     --color-tab:rgb(44, 44, 44);
+    --color-General-hover:rgb(208, 255, 66);
     --color-SD-hover:rgb(55, 172, 255);
     --color-RAW-hover:rgb(255, 74, 74);
     --color-ECW-hover:rgb(172, 77, 255);
@@ -697,14 +698,125 @@ nav .fas{
 
 
 
-.SuperstarProfiles{
+
+
+
+
+.RAWSuperstarProfiles{
     margin-bottom: 50px;
     height: auto;
-    width: 14%;
+    width: 13%;
     opacity: 1;
     background-image: url(/Images/RAWBackground.png);
+    background-size: 100% 100%;
+}
+.RAWWomensProfiles{
+    margin-bottom: 50px;
+    height: auto;
+    width: 17%;
+    opacity: 1;
+    background-image: url(/Images/RAWBackground.png);
+    background-size: 100% 100%;
+}
+.RAWTagTeamProfiles{
+    margin-bottom: 50px;
+    height: auto;
+    width: 20%;
+    opacity: 1;
+    background-image: url(/Images/RAWBackground.png);
+    background-size: 100% 100%;
 }
 
+.AllRAWProfiles{
+    margin-bottom: 50px;
+    height: auto;
+    width: 13%;
+    opacity: 1;
+    background-image: url(/Images/RAWBackground.png);
+    background-size: 100% 100%;
+}
+
+
+
+
+
+
+
+
+.SDSuperstarProfiles{
+    margin-bottom: 50px;
+    height: auto;
+    width: 13%;
+    opacity: 1;
+    background-image: url(/Images/SDBackground.png);
+    background-size: 100% 100%;
+}
+.SDWomensProfiles{
+    margin-bottom: 50px;
+    height: auto;
+    width: 17%;
+    opacity: 1;
+    background-image: url(/Images/SDBackground.png);
+    background-size: 100% 100%;
+}
+.SDTagTeamProfiles{
+    margin-bottom: 50px;
+    height: auto;
+    width: 20%;
+    opacity: 1;
+    background-image: url(/Images/SDBackground.png);
+    background-size: 100% 100%;
+}
+
+.AllSDProfiles{
+    margin-bottom: 50px;
+    height: auto;
+    width: 13%;
+    opacity: 1;
+    background-image: url(/Images/SDBackground.png);
+    background-size: 100% 100%;
+}
+
+
+
+
+
+
+
+
+.ECWSuperstarProfiles{
+    margin-bottom: 50px;
+    height: auto;
+    width: 13%;
+    opacity: 1;
+    background-image: url(/Images/ECWBackground.png);
+    background-size: 100% 100%;
+}
+.ECWWomensProfiles{
+    margin-bottom: 50px;
+    height: auto;
+    width: 17%;
+    opacity: 1;
+    background-image: url(/Images/ECWBackground.png);
+    background-size: 100% 100%;
+}
+.ECWTagTeamProfiles{
+    margin-bottom: 50px;
+    height: auto;
+    width: 20%;
+    opacity: 1;
+    background-image: url(/Images/ECWBackground.png);
+    background-size: 100% 100%;
+}
+
+.AllECWProfiles{
+    margin-bottom: 50px;
+    height: auto;
+    width: 13%;
+    opacity: 1;
+    background-image: url(/Images/ECWBackground.png);
+    background-size: 100% 100%;
+}
 
 
 
@@ -717,7 +829,7 @@ nav .fas{
 /*RAW PAGE */
 
 .RAW{
-    background-image: url(/Images/RAWBackground.png); 
+    background-image: url(/Images/RAWBackgroundV2.png); 
     background-size: 50%, 1px;
     background-repeat: repeat;
 }
@@ -751,7 +863,7 @@ nav .fas{
 
   /* Create an active/current tablink class */
 .Rawtab button.active {
-    color: var(--color-RAW-light);
+    color: var(--color-RAW-hover);
 }
   
   /* Style the tab content */
@@ -860,6 +972,52 @@ nav .fas{
   /* Create an active/current tablink class */
 .ECWtab button.active {
     color: var(--color-ECW-hover);
+}
+  
+  /* Style the tab content */
+.tabcontent {
+    margin-bottom: 200px;
+    display: none;
+    border-top: none;
+}
+
+
+
+
+
+/*General Superstars Page Tab */
+
+.Generaltab {
+    overflow: hidden;
+    margin-top: 40px;
+    background-color: var(--color-tab);
+    color: var(--color-font);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+  
+  /* Style the buttons inside the tab */
+.Generaltab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.1s;
+    font-size: 0.7vw;
+    color: var(--color-font);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+  
+  /* Change background color of buttons on hover */
+.Generaltab button:hover {
+    color: var(--color-General-hover);
+}
+
+
+  /* Create an active/current tablink class */
+.Generaltab button.active {
+    color: var(--color-General-hover);
 }
   
   /* Style the tab content */
