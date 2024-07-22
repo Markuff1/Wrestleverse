@@ -659,7 +659,7 @@ nav .fas{
     margin-left: 15px;
     margin-right: 15px;
     height: auto;
-    width: 15%;
+    width: 20%;
     opacity: 1;
     background:url(/Images/SuperstarProfiles/ChampionBackgrounds/ECWWorldChampion.png);
     background-size: 100% 100%;
@@ -669,7 +669,7 @@ nav .fas{
     margin-left: 15px;
     margin-right: 15px;
     height: auto;
-    width: 15%;
+    width: 20%;
     opacity: 1;
     background:url(/Images/SuperstarProfiles/ChampionBackgrounds/ECWTVChampion.png);
     background-size: 100% 100%;
@@ -679,7 +679,7 @@ nav .fas{
     margin-left: 15px;
     margin-right: 15px;
     height: auto;
-    width: 15%;
+    width: 20%;
     opacity: 1;
     background:url(/Images/SuperstarProfiles/ChampionBackgrounds/ECWTagTeamChampions.png);
     background-size: 100% 100%;
@@ -689,7 +689,7 @@ nav .fas{
     margin-left: 15px;
     margin-right: 15px;
     height: auto;
-    width: 15%;
+    width: 20%;
     opacity: 1;
     background:url(/Images/SuperstarProfiles/ChampionBackgrounds/ECWWomensChampion.png);
     background-size: 100% 100%;
@@ -882,7 +882,7 @@ nav .fas{
 /*SD PAGE */
 
 .SD{
-    background-image: url(/Images/SDBackground.png); 
+    background-image: url(/Images/SDBackgroundV2.png); 
     background-size: 50%, 1px;
     background-repeat: repeat;
 }
@@ -937,7 +937,7 @@ nav .fas{
 /*ECW PAGE */
 
 .ECW{
-    background-image: url(/Images/ECWBackground.png); 
+    background-image: url(/Images/ECWBackgroundV2.png); 
     background-size: 50%, 1px;
     background-repeat: repeat;
 }
