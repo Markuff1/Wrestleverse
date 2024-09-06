@@ -312,12 +312,38 @@ nav .fas{
         opacity: 1;
 }
 
-.NewsHeaders{
+.NewsHeader{
     color: var(--color-font);
-    text-align: center;
-    font-size: 400%;
+    padding-top: 30px;
+    font-size: 350%;
     font-weight: 500px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration-line: underline;
+    text-align: center;
+}
+
+.NewsDes{
+    color: var(--color-font);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 150%;
+    font-weight: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+
+.NewsImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 55%;
+    outline-color: black;
+    outline-style: solid;
+    outline-width: 4px;
+    opacity: 1;
+    align-items: center;
 }
 
 
