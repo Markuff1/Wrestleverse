@@ -512,8 +512,8 @@ nav .fas{
 
 .PPVMCChampionship{
     color: var(--color-font);
-    padding-top: 10px;
-    font-size: 150%;
+    padding-top: 5px;
+    font-size: 200%;
     font-weight: 500px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
@@ -521,9 +521,9 @@ nav .fas{
 
 .PPVMCMatchType{
     color: var(--color-font);
-    padding-top: 10px;
+    padding-top: 5px;
     padding-bottom: 30px;
-    font-size: 125%;
+    font-size: 170%;
     font-weight: 500px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
