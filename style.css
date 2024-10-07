@@ -305,8 +305,8 @@ nav .fas{
 }
 
 .NewsBanner{
-        padding-top: 145px;
-        padding-bottom: 30px;
+        padding-top: 5vw;
+        padding-bottom: 1vw;
         height: auto;
         width: 100%;
         opacity: 1;
@@ -314,8 +314,9 @@ nav .fas{
 
 .NewsHeader{
     color: var(--color-font);
-    padding-top: 30px;
-    font-size: 350%;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    font-size: 2.5vw;
     font-weight: 500px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration-line: underline;
@@ -324,9 +325,9 @@ nav .fas{
 
 .NewsDes{
     color: var(--color-font);
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-size: 150%;
+    padding-top: 1vw;
+    padding-bottom: 0.5vw;
+    font-size: 1.2vw;
     font-weight: 500px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
@@ -364,8 +365,8 @@ nav .fas{
 }
 
 .ShowBanner{
-    padding-top: 145px;
-    padding-bottom: 30px;
+    padding-top: 5vw;
+    padding-bottom: 1vw;
     height: auto;
     width: 100%;
     opacity: 1;
@@ -374,9 +375,9 @@ nav .fas{
 .ShowHeaders{
     color: var(--color-font);
     text-align: center;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    font-size: 400%;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    font-size: 3vw;
     font-weight: 500px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
