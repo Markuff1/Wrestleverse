@@ -39,7 +39,7 @@ header{
     left: 0;
     right: 0;
 }
-Endborder{
+.Endborder{
     display: flex;
     justify-content: space-between;
     padding: 20px;
@@ -273,7 +273,7 @@ form input, form textarea{
 
 }
 .container{
-    padding: 10px 10%;
+    padding: 1vw 10%;
 }
 
 nav .fas{
@@ -299,7 +299,7 @@ nav .fas{
 }
 
 .container2{
-    padding: 10px 10%;
+    padding: 3vw 20%;
     background-image: url(Images/DarkBackground.jpg);
     background-clip: content-box;
 }
@@ -594,26 +594,6 @@ nav .fas{
 
 /*Champions*/
 
-.WWEChampion{
-    margin-bottom: 50px;
-    margin-left: 15px;
-    margin-right: 15px;
-    height: auto;
-    width: 15%;
-    opacity: 1;
-    background:url(/Images/SuperstarProfiles/ChampionBackgrounds/WWEChampion.png);
-    background-size: 100% 100%;
-}
-.ICChampion{
-    margin-bottom: 50px;
-    margin-left: 15px;
-    margin-right: 15px;
-    height: auto;
-    width: 15%;
-    opacity: 1;
-    background:url(/Images/SuperstarProfiles/ChampionBackgrounds/ICChampion.png);
-    background-size: 100% 100%;
-}
 .RawTagTeamChampions{
     margin-bottom: 50px;
     margin-left: 15px;
@@ -658,26 +638,7 @@ nav .fas{
     background:url(/Images/SuperstarProfiles/ChampionBackgrounds/USChampion.png);
     background-size: 100% 100%;
 }
-.SDTagTeamChampions{
-    margin-bottom: 50px;
-    margin-left: 15px;
-    margin-right: 15px;
-    height: auto;
-    width: 15%;
-    opacity: 1;
-    background:url(/Images/SuperstarProfiles/ChampionBackgrounds/SDTagTeamChampions.png);
-    background-size: 100% 100%;
-}
-.WWEWomensChampion{
-    margin-bottom: 50px;
-    margin-left: 15px;
-    margin-right: 15px;
-    height: auto;
-    width: 15%;
-    opacity: 1;
-    background:url(/Images/SuperstarProfiles/ChampionBackgrounds/WWEWomensChampion.png);
-    background-size: 100% 100%;
-}
+
 
 
 
@@ -723,94 +684,6 @@ nav .fas{
 }
 
 
-
-
-
-
-
-
-.RAWSuperstarProfiles{
-    margin-bottom: 50px;
-    height: auto;
-    width: 13%;
-    opacity: 1;
-    background-image: url(/Images/RAWBackground.png);
-    background-size: 100% 100%;
-}
-.RAWWomensProfiles{
-    margin-bottom: 50px;
-    height: auto;
-    width: 17%;
-    opacity: 1;
-    background-image: url(/Images/RAWBackground.png);
-    background-size: 100% 100%;
-}
-.RAWTagTeamProfiles{
-    margin-bottom: 50px;
-    height: auto;
-    width: 20%;
-    opacity: 1;
-    background-image: url(/Images/RAWBackground.png);
-    background-size: 100% 100%;
-}
-
-.AllRAWProfiles{
-    margin-bottom: 50px;
-    height: auto;
-    width: 13%;
-    opacity: 1;
-    background-image: url(/Images/RAWBackground.png);
-    background-size: 100% 100%;
-}
-
-
-
-
-
-
-
-
-.SDSuperstarProfiles{
-    margin-bottom: 50px;
-    height: auto;
-    width: 13%;
-    opacity: 1;
-    background-image: url(/Images/SDBackground.png);
-    background-size: 100% 100%;
-}
-.SDWomensProfiles{
-    margin-bottom: 50px;
-    height: auto;
-    width: 17%;
-    opacity: 1;
-    background-image: url(/Images/SDBackground.png);
-    background-size: 100% 100%;
-}
-.SDTagTeamProfiles{
-    margin-bottom: 50px;
-    height: auto;
-    width: 20%;
-    opacity: 1;
-    background-image: url(/Images/SDBackground.png);
-    background-size: 100% 100%;
-}
-
-.AllSDProfiles{
-    margin-bottom: 50px;
-    height: auto;
-    width: 13%;
-    opacity: 1;
-    background-image: url(/Images/SDBackground.png);
-    background-size: 100% 100%;
-}
-
-
-
-
-
-
-
-
 .ECWSuperstarProfiles{
     margin-bottom: 50px;
     height: auto;
@@ -844,121 +717,6 @@ nav .fas{
     background-image: url(/Images/ECWBackground.png);
     background-size: 100% 100%;
 }
-
-
-
-
-
-
-
-
-
-/*RAW PAGE */
-
-.RAW{
-    background-image: url(/Images/RAWBackgroundV2.png); 
-    background-size: 50%, 1px;
-    background-repeat: repeat;
-}
-
-.Rawtab {
-    overflow: hidden;
-    background-color: var(--color-tab);
-    color: var(--color-font);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-  
-  /* Style the buttons inside the tab */
-.Rawtab button {
-    background-color: inherit;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    transition: 0.1s;
-    font-size: 0.7vw;
-    color: var(--color-font);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-  
-  /* Change background color of buttons on hover */
-.Rawtab button:hover {
-    color: var(--color-RAW-hover);
-}
-
-
-  /* Create an active/current tablink class */
-.Rawtab button.active {
-    color: var(--color-RAW-hover);
-}
-  
-  /* Style the tab content */
-.tabcontent {
-    margin-bottom: 200px;
-    display: none;
-    border-top: none;
-}
-
-
-
-
-
-
-
-/*SD PAGE */
-
-.SD{
-    background-image: url(/Images/SDBackgroundV2.png); 
-    background-size: 50%, 1px;
-    background-repeat: repeat;
-}
-
-
-.SDTab {
-    overflow: hidden;
-    background-color: var(--color-tab);
-    color: var(--color-font);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-  
-  /* Style the buttons inside the tab */
-.SDTab button {
-    background-color: inherit;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    transition: 0.1s;
-    font-size: 0.7vw;
-    color: var(--color-font);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-  
-  /* Change background color of buttons on hover */
-.SDTab button:hover {
-    color: var(--color-SD-hover);
-}
-
-
-  /* Create an active/current tablink class */
-.SDTab button.active {
-    color: var(--color-SD-hover);
-}
-  
-  /* Style the tab content */
-.tabcontent {
-    margin-bottom: 200px;
-    display: none;
-    border-top: none;
-}
-
-
-
-
-
-
 
 
 /*ECW PAGE */

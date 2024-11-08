@@ -1,0 +1,149 @@
+/*RAW PAGE */
+body{
+    --color-tab:rgb(44, 44, 44);
+    --color-General-hover:rgb(208, 255, 66);
+    --color-RAW-tab:rgb(91, 0, 0);
+    --color-RAW:rgb(255, 255, 255);
+    --color-RAW-hover:rgb(255, 74, 74);
+    background:linear-gradient(to right, rgb(147, 0, 0) ,rgb(0, 0, 0),rgb(0, 0, 0), rgb(147, 0, 0));
+}
+
+.RAW{
+    background-size: 100vw 100vw;
+    background-repeat: no-repeat;
+}
+
+.Rawtab {
+    overflow: hidden;
+    background-color: var(--color-RAW-tab);
+    color: var(--color-RAW-tab);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+  
+  /* Style the buttons inside the tab */
+.Rawtab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0.3vw 1vw;
+    transition: 0.2s;
+    font-size: 1vw;
+    color: var(--color-RAW);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+  
+  /* Change background color of buttons on hover */
+.Rawtab button:hover {
+    color: var(--color-RAW-hover);
+}
+
+
+  /* Create an active/current tablink class */
+.Rawtab button.active {
+    color: var(--color-RAW-hover);
+}
+  
+  /* Style the tab content */
+.tabcontent {
+    margin-bottom: 200px;
+    display: none;
+    border-top: none;
+}
+
+.RAWSuperstarProfiles{
+    margin-bottom: 50px;
+    height: auto;
+    width: 13%;
+    opacity: 1;
+    background-image: url(/Images/RAWBackground.png);
+    background-size: 100% 100%;
+}
+.RAWWomensProfiles{
+    margin-bottom: 50px;
+    height: auto;
+    width: 17%;
+    opacity: 1;
+    background-image: url(/Images/RAWBackground.png);
+    background-size: 100% 100%;
+}
+.RAWTagTeamProfiles{
+    margin-bottom: 50px;
+    height: auto;
+    width: 20%;
+    opacity: 1;
+    background-image: url(/Images/RAWBackground.png);
+    background-size: 100% 100%;
+}
+
+.AllRAWProfiles{
+    margin-bottom: 50px;
+    height: auto;
+    width: 13%;
+    opacity: 1;
+    background-image: url(/Images/RAWBackground.png);
+    background-size: 100% 100%;
+}
+
+.RAWLocation{
+    color: var(--color-font);
+    margin-left: 1vw;
+    margin-top: 1vw;
+    font-size: 1vw;
+    font-weight: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.RAWDate{
+    color: var(--color-font);
+    margin-right: 1vw;
+    margin-top: 1vw;
+    font-size: 1vw;
+    font-weight: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.RAWInfo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.RAWTitle{
+    color: var(--color-font);
+    padding-top: 30px;
+    font-size: 3vw;
+    font-weight: 300%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.RAWDescirpt{
+    color: var(--color-font);
+    margin-bottom: 2vw;
+    margin-top: 2vw;
+    font-size: 1.5vw;
+    font-weight: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.RAWSubtitle1{
+    color: var(--color-font);
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 1.5vw;
+    font-weight: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.RAWSubtitle2{
+    color: var(--color-font);
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 1.2vw;
+    font-weight: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}

@@ -1,0 +1,196 @@
+/*SD PAGE */
+body{
+    --color-tab:rgb(44, 44, 44);
+    --color-General-hover:rgb(208, 255, 66);
+    --color-SD-tab:rgb(0, 42, 91);
+    --color-SD:rgb(255, 255, 255);
+    --color-SD-hover:rgb(74, 198, 255);
+    background:linear-gradient(to right, rgb(0, 0, 147) ,rgb(0, 0, 0),rgb(0, 0, 0), rgb(0, 0, 147));
+}
+
+.SD{
+    background-size: 100vw 100vw;
+    background-repeat: no-repeat;
+}
+
+
+.SDtab {
+    overflow: hidden;
+    background-color: var(--color-SD-tab);
+    color: var(--color-SD-tab);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+  
+  /* Style the buttons inside the tab */
+.SDtab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0.3vw 1vw;
+    transition: 0.2s;
+    font-size: 1vw;
+    color: var(--color-SD);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+  
+  /* Change background color of buttons on hover */
+.SDtab button:hover {
+    color: var(--color-SD-hover);
+}
+
+
+  /* Create an active/current tablink class */
+.SDtab button.active {
+    color: var(--color-SD-hover);
+}
+  
+  /* Style the tab content */
+.tabcontent {
+    margin-bottom: 200px;
+    display: none;
+    border-top: none;
+}
+
+.SDSuperstarProfiles{
+    margin-bottom: 50px;
+    height: auto;
+    width: 13%;
+    opacity: 1;
+    background-image: url(/Images/SDBackground.png);
+    background-size: 100% 100%;
+}
+.SDWomensProfiles{
+    margin-bottom: 50px;
+    height: auto;
+    width: 17%;
+    opacity: 1;
+    background-image: url(/Images/SDBackground.png);
+    background-size: 100% 100%;
+}
+.SDTagTeamProfiles{
+    margin-bottom: 50px;
+    height: auto;
+    width: 20%;
+    opacity: 1;
+    background-image: url(/Images/SDBackground.png);
+    background-size: 100% 100%;
+}
+
+.AllSDProfiles{
+    margin-bottom: 50px;
+    height: auto;
+    width: 13%;
+    opacity: 1;
+    background-image: url(/Images/SDBackground.png);
+    background-size: 100% 100%;
+}
+
+.SDLocation{
+    color: var(--color-font);
+    margin-left: 1vw;
+    margin-top: 1vw;
+    font-size: 1vw;
+    font-weight: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.SDDate{
+    color: var(--color-font);
+    margin-right: 1vw;
+    margin-top: 1vw;
+    font-size: 1vw;
+    font-weight: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.SDInfo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.SDTitle{
+    color: var(--color-font);
+    padding-top: 30px;
+    font-size: 3vw;
+    font-weight: 300%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.SDDescirpt{
+    color: var(--color-font);
+    margin-bottom: 2vw;
+    margin-top: 2vw;
+    font-size: 1.5vw;
+    font-weight: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.SDSubtitle1{
+    color: var(--color-font);
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 1.5vw;
+    font-weight: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.SDSubtitle2{
+    color: var(--color-font);
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 1.2vw;
+    font-weight: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+
+
+
+.WWEChampion{
+    margin-bottom: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: auto;
+    width: 15%;
+    opacity: 1;
+    background:url(/Images/SuperstarProfiles/ChampionBackgrounds/WWEChampion.png);
+    background-size: 100% 100%;
+}
+.ICChampion{
+    margin-bottom: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: auto;
+    width: 15%;
+    opacity: 1;
+    background:url(/Images/SuperstarProfiles/ChampionBackgrounds/ICChampion.png);
+    background-size: 100% 100%;
+}
+
+.WWEWomensChampion{
+    margin-bottom: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: auto;
+    width: 15%;
+    opacity: 1;
+    background:url(/Images/SuperstarProfiles/ChampionBackgrounds/WWEWomensChampion.png);
+    background-size: 100% 100%;
+}
+
+.SDTagTeamChampions{
+    margin-bottom: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: auto;
+    width: 15%;
+    opacity: 1;
+    background:url(/Images/SuperstarProfiles/ChampionBackgrounds/SDTagTeamChampions.png);
+    background-size: 100% 100%;
+}

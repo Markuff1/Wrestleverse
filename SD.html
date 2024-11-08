@@ -3,8 +3,9 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>WrestleVerse | Smackdown</title>
+        <title>WrestleVerse | SmackDown</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="SD.css">
         <link rel="stylesheet" href="mobilestyle.css">
         <link rel = "icon" href = "Images/WrestleVerseSymbol.png">
     </head>
@@ -26,13 +27,12 @@
             </nav>
         </header>
         <img src="Images/SDHeader.png" class = "PPVBanner">
-        <div class="PPVInfo">
-            <div class="PPVLocation">Location: Arena Near You</div>
-            <div class="PPVDate">Date/Time: 7PM EST, Every Friday night</div>
+        <div class="SDInfo">
+            <div class="SDLocation">Location: Arena Near You</div>
+            <div class="SDDate">Date/Time: 7PM EST, Every Monday night</div>
         </div>
-        <div class="PPVTitle">SMACKDOWN</div>
-        <div class="ShowDescript">This is the page for the land of opertunity, where every superstar gets the opertunity of a lifetime</div>
-        <div class="SDTab">
+        <div class="SDDescirpt">This is the page for the longest running weekly episodic television show in history</div>
+        <div class="SDtab">
             <button class="tablinks" onclick="openCity(event, 'ALL')">ALL</button>
             <button class="tablinks" onclick="openCity(event, 'Champions')">Champions</button>
             <button class="tablinks" onclick="openCity(event, 'Men')">Men</button>
@@ -41,192 +41,46 @@
           </div>
           
           <div id="ALL" class="tabcontent" style="display: block;">
-              <div class="WeeklySubTitle1">Whole Current Roster</div>
-              <div class="centerRoster">
-                <td><img src="/Images/SuperstarProfiles/AJStyles.png" alt="" class="WorldChampion" style="width: 13%; margin-left: 0px; margin-right: 0px;"></td>
-                <td><img src="/Images/SuperstarProfiles/AlexaBliss.png" alt="" class="AllSDProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/AngelGarza.png" alt="" class="AllSDProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/ApolloCrews.png" alt="" class="AllSDProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/Axiom.png" alt="" class="AllSDProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/Bayley.png" alt="" class="AllSDProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/BeckyLynch.png" alt="" class="AllSDProfiles"></td>
-            </div>
+            <div class="SDSubtitle1">Whole Current Roster</div>
             <div class="centerRoster">
-                <td><img src="/Images/SuperstarProfiles/BiancaBelair.png" alt="" class="AllSDProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/BrayWyatt.png" alt="" class="AllSDProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/BronBreakker.png" alt="" class="AllSDProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/BronsonReed.png" alt="" class="AllSDProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/CMPunk.png" alt="" class="AllSDProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/Carlito.png" alt="" class="AllSDProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/Carmella.png" alt="" class="AllSDProfiles"></td>
-            </div>
-            <div class="centerRoster">
-                <td><img src="/Images/SuperstarProfiles/CedricAlexander.png" alt="" class="AllSDProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/ChelseaGreen.png" alt="" class="WWEWomensChampion" style="width: 13%; margin-left: 0px; margin-right: 0px;"></td>
-                <td><img src="/Images/SuperstarProfiles/DIJAK.png" alt="" class="AllSDProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/DamianPreist.png" class="AllSDProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/EveTores.png" alt="" class="AllSDProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/FinnBalor.png" alt="" class="AllSDProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/GiovanniVinci.png" alt="" class="AllSDProfiles"></td>
-            </div>
-            <div class="centerRoster">
-                <td><img src="/Images/SuperstarProfiles/HumbertoCarillo.png" alt="" class="AllSDProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/IyoSky.png" alt="" class="AllSDProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/JDMcDonough.png" alt="" class="AllSDProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/JoeGacy.png" alt="" class="AllSDProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/JohnCena.png" alt="" class="AllSDProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/JohnnyGargano.png" alt="" class="AllSDProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/KairiSane.png" alt="" class="AllSDProfiles"></td>
-            </div>
-            <div class="centerRoster">
-                <td><img src="/Images/SuperstarProfiles/KarlAnderson.png" alt="" alt="" class="SDTagTeamChampions" style="width: 13%; margin-left: 0px; margin-right: 0px;"></td>
-                <td><img src="/Images/SuperstarProfiles/KatanaChance.png" alt="" class="AllSDProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/KaydenCarter.png" alt="" class="AllSDProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/KevinOwens.png" alt="" class="AllSDProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/KurtAngle.png" alt="" class="AllSDProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/LivMorgan.png" alt="" class="AllSDProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/Lorenzo.png" alt="" class="AllSDProfiles"></td>
-            </div>
-            <div class="centerRoster">
-                <td><img src="/Images/SuperstarProfiles/LudwigKaiser.png" alt="" class="AllSDProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/LukeGallows.png" alt="" class="SDTagTeamChampions" style="width: 13%; margin-left: 0px; margin-right: 0px;"></td>
-                <td><img src="/Images/SuperstarProfiles/LyraValkyria.png" alt="" class="AllSDProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/MaxxineDupri.png" alt="" class="AllSDProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/Miz.png" alt="" class="AllSDProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/NoamDar.png" alt="" class="AllSDProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/PiperNiven.png" alt="" class="AllSDProfiles"></td>
-            </div>
-            <div class="centerRoster">
-                <td><img src="/Images/SuperstarProfiles/ReyMysterio.png" alt="" class="AllSDProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/Ricochet.png" alt="" class="AllSDProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/RomanReigns.png" alt="" class="AllSDProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/SamiZayn.png" alt="" class="AllSDProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/Sheamus.png" alt="" class="AllSDProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/TheFiend.png" alt="" class="AllSDProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/TheaHail.png" alt="" class="AllSDProfiles"></td>
-            </div>
-            <div class="centerRoster">
-                <td><img src="/Images/SuperstarProfiles/TommasoCiampa.png" alt="" class="USChampion" style="width: 13%; margin-left: 0px; margin-right: 0px;"></td>
-                <td><img src="/Images/SuperstarProfiles/TonyD'Angelo.png" alt="" class="AllSDProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/TylerBreeze.png" alt="" class="AllSDProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/Umaga.png" alt="" class="AllSDProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/ZelinaVega.png" alt="" class="AllSDProfiles"></td>
             </div>
           </div>
 
 
           <div id="Champions" class="tabcontent" style="display: none;">
-            <div class="WeeklySubTitle2">Champions</div>
-            <div class="centerRoster">
-                <td><img src="/Images/SuperstarProfiles/AJStyles.png" alt="" class="WorldChampion"></td>
-                <td><img src="/Images/SuperstarProfiles/TommasoCiampa.png" alt="" class="USChampion"></td>
-                <td><img src="/Images/SuperstarProfiles/TheOC.png" alt="" class="SDTagTeamChampions"></td>
-                <td><img src="/Images/SuperstarProfiles/ChelseaGreen.png" alt="" class="WWEWomensChampion"></td>
-            </div>
+            <div class="SDSubtitle2">Champions</div>
+                <div class="centerRoster">
+                  <td><img src="/Images/SuperstarProfiles/Gunther.png" alt="" class="WWEChampion" style="width: 15%; margin-left: 0px; margin-right: 0px;"></td>
+                  <td><img src="/Images/SuperstarProfiles/JohnCena.png" alt="" class="ICChampion" style="width: 15%; margin-left: 0px; margin-right: 0px;"></td>
+                  <td><img src="/Images/SuperstarProfiles/DudleyBoys.png" alt="" class="SDTagTeamChampions" style="width: 15%; margin-left: 0px; margin-right: 0px;"></td>
+                  <td><img src="/Images/SuperstarProfiles/KairiSane.png" alt="" class="WWEWomensChampion" style="width: 15%; margin-left: 0px; margin-right: 0px;"></td>
+                </div>
         </div>
 
 
         <div id="Men" class="tabcontent" style="display: none;">
-            <div class="WeeklySubTitle2">Men</div>
+            <div class="SDSubtitle2">Men</div>
             <div class="centerRoster">
-                <td><img src="/Images/SuperstarProfiles/AJStyles.png" alt="" class="SDSuperstarProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/AngelGarza.png" alt="" class="SDSuperstarProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/ApolloCrews.png" alt="" class="SDSuperstarProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/Axiom.png" alt="" class="SDSuperstarProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/BrayWyatt.png" alt="" class="SDSuperstarProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/BronBreakker.png" alt="" class="SDSuperstarProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/BronsonReed.png" alt="" class="SDSuperstarProfiles"></td>
-            </div>
-            <div class="centerRoster">
-                <td><img src="/Images/SuperstarProfiles/Carlito.png" alt="" class="SDSuperstarProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/CMPunk.png" alt="" class="SDSuperstarProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/CedricAlexander.png" alt="" class="SDSuperstarProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/DIJAK.png" alt="" class="SDSuperstarProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/DamianPreist.png" alt="" class="SDSuperstarProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/FinnBalor.png" alt="" class="SDSuperstarProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/GiovanniVinci.png" alt="" class="SDSuperstarProfiles"></td>
-            </div>
-            <div class="centerRoster">
-                <td><img src="/Images/SuperstarProfiles/HumbertoCarillo.png" alt="" class="SDSuperstarProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/JDMcDonough.png" alt="" class="SDSuperstarProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/JoeGacy.png" alt="" class="SDSuperstarProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/JohnCena.png" alt="" class="WorldChampion" style="width: 13%; margin-left: 0px; margin-right: 0px;"></td>
-                <td><img src="/Images/SuperstarProfiles/JohnnyGargano.png" alt="" class="SDSuperstarProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/KarlAnderson.png" alt="" class="SDTagTeamChampions" style="width: 13%; margin-left: 0px; margin-right: 0px;"></td>
-                <td><img src="/Images/SuperstarProfiles/KevinOwens.png" alt="" class="SDSuperstarProfiles"></td>
-            </div>
-            <div class="centerRoster">
-                <td><img src="/Images/SuperstarProfiles/KurtAngle.png" alt="" class="SDSuperstarProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/Lorenzo.png" alt="" class="SDSuperstarProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/LudwigKaiser.png" alt="" class="SDSuperstarProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/LukeGallows.png" alt="" class="SDTagTeamChampions" style="width: 13%; margin-left: 0px; margin-right: 0px;"></td>
-                <td><img src="/Images/SuperstarProfiles/Miz.png" alt="" class="SDSuperstarProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/NoamDar.png" alt="" class="SDSuperstarProfiles"></td>
-            </div>
-            <div class="centerRoster">
-                <td><img src="/Images/SuperstarProfiles/ReyMysterio.png" alt="" class="SDSuperstarProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/Ricochet.png" alt="" class="SDSuperstarProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/RomanReigns.png" alt="" class="SDSuperstarProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/SamiZayn.png" alt="" class="SDSuperstarProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/Sheamus.png" alt="" class="SDSuperstarProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/TheFiend.png" alt="" class="SDSuperstarProfiles"></td>
-            </div>
-            <div class="centerRoster">
-                <td><img src="/Images/SuperstarProfiles/TommasoCiampa.png" alt="" class="USChampion" style="width: 13%; margin-left: 0px; margin-right: 0px;"></td>
-                <td><img src="/Images/SuperstarProfiles/TonyD'Angelo.png" alt="" class="SDSuperstarProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/TylerBreeze.png" alt="" class="SDSuperstarProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/Umaga.png" alt="" class="SDSuperstarProfiles"></td>
             </div>
         </div>
 
 
         <div id="Women" class="tabcontent" style="display: none;">
-            <div class="WeeklySubTitle2">Women</div>
+            <div class="SDSubtitle2">Women</div>
             <div class="centerRoster">
-                <td><img src="/Images/SuperstarProfiles/AlexaBliss.png" alt="" class="SDWomensProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/Bayley.png" alt="" class="SDWomensProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/BeckyLynch.png" alt="" class="SDWomensProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/BiancaBelair.png" alt="" class="SDWomensProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/Carmella.png" alt="" class="SDWomensProfiles"></td>
-            </div>
-            <div class="centerRoster">
-                <td><img src="/Images/SuperstarProfiles/ChelseaGreen.png" alt="" class="WWEWomensChampion" style="width: 17%; margin-left: 0px; margin-right: 0px;"></td>
-                <td><img src="/Images/SuperstarProfiles/EveTores.png" alt="" class="SDWomensProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/IyoSky.png" alt="" class="SDWomensProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/KatanaChance.png" alt="" class="SDWomensProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/KaydenCarter.png" alt="" class="SDWomensProfiles"></td>
-            </div>
-            <div class="centerRoster">
-                <td><img src="/Images/SuperstarProfiles/KairiSane.png" alt="" class="SDWomensProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/LivMorgan.png" alt="" class="SDWomensProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/LyraValkyria.png" alt="" class="SDWomensProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/MaxxineDupri.png" alt="" class="SDWomensProfiles"></td>
-            </div>
-            <div class="centerRoster">
-                <td><img src="/Images/SuperstarProfiles/PiperNiven.png" alt="" class="SDWomensProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/TheaHail.png" alt="" class="SDWomensProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/ZelinaVega.png" alt="" class="SDWomensProfiles"></td>
             </div>
         </div>
 
 
         <div id="TagTeams" class="tabcontent" style="display: none;">
-            <div class="WeeklySubTitle2">Tag Teams</div>
+            <div class="SDSubtitle2">Tag Teams</div>
             <div class="centerRoster">
-                <td><img src="/Images/SuperstarProfiles/D'Angelo&Lorenzo.png" alt="" class="SDTagTeamProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/DIY.png" alt="" class="SDTagTeamProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/Imperium.png" alt="" class="SDTagTeamProfiles"></td>
-            </div>
-            <div class="centerRoster">
-                <td><img src="/Images/SuperstarProfiles/JudgementDay.png" alt="" class="SDTagTeamProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/LosLotharios.png" alt="" class="SDTagTeamProfiles"></td>
-                <td><img src="/Images/SuperstarProfiles/TheOC.png" alt="" class="SDTagTeamChampions" style="width: 20%; margin-left: 0px; margin-right: 0px;"></td>
             </div>
         </div>
 
         <script src="/script.js"></script> 
        <script src="https://kit.fontawesome.com/83f76d927e.js" crossorigin="anonymous"></script>
-       <Endborder></Endborder>
+       <div class="Endborder"></div>
     </div>
     </body>
 </html>
