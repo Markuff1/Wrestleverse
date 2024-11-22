@@ -9,7 +9,7 @@ body{
 }
 
 .RAW{
-    background-size: 100vw 100vw;
+    background-size: 100vw 295vw;
     background-repeat: no-repeat;
 }
 
@@ -55,7 +55,7 @@ body{
 .RAWSuperstarProfiles{
     margin-bottom: 50px;
     height: auto;
-    width: 13%;
+    width: 9.5vw;
     opacity: 1;
     background-image: url(/Images/RAWBackground.png);
     background-size: 100% 100%;
@@ -63,7 +63,7 @@ body{
 .RAWWomensProfiles{
     margin-bottom: 50px;
     height: auto;
-    width: 17%;
+    width: 11vw;
     opacity: 1;
     background-image: url(/Images/RAWBackground.png);
     background-size: 100% 100%;
@@ -71,7 +71,7 @@ body{
 .RAWTagTeamProfiles{
     margin-bottom: 50px;
     height: auto;
-    width: 20%;
+    width: 13vw;
     opacity: 1;
     background-image: url(/Images/RAWBackground.png);
     background-size: 100% 100%;
@@ -80,7 +80,7 @@ body{
 .AllRAWProfiles{
     margin-bottom: 50px;
     height: auto;
-    width: 13%;
+    width: 9.5vw;
     opacity: 1;
     background-image: url(/Images/RAWBackground.png);
     background-size: 100% 100%;
@@ -130,9 +130,9 @@ body{
 
 .RAWSubtitle1{
     color: var(--color-font);
-    padding-top: 30px;
-    padding-bottom: 10px;
-    font-size: 1.5vw;
+    margin-top: 1.2vw;
+    margin-bottom: 1.2vw;
+    font-size: 2vw;
     font-weight: 500px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
@@ -140,9 +140,9 @@ body{
 
 .RAWSubtitle2{
     color: var(--color-font);
-    padding-top: 30px;
-    padding-bottom: 10px;
-    font-size: 1.2vw;
+    margin-top: 1.2vw;
+    margin-bottom: 1.2vw;
+    font-size: 2vw;
     font-weight: 500px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;

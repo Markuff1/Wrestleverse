@@ -1,0 +1,475 @@
+.shows{
+    background:linear-gradient(to right, rgb(0, 121, 38) ,rgb(0, 0, 0),rgb(0, 0, 0), rgb(0, 121, 38));
+    background-size: 100vw 100%;
+    background-repeat: no-repeat;
+}
+
+.container2{
+    padding: 10px 10%;
+    background:radial-gradient(closest-side, rgb(39, 39, 39) ,rgb(64, 64, 64),rgb(64, 64, 64), rgb(39, 39, 39));
+    background-size: 50%, 1px;
+    background-repeat: repeat;
+    background-clip: content-box;
+}
+
+.ShowBanner{
+    padding-top: 5vw;
+    padding-bottom: 1vw;
+    height: auto;
+    width: 100%;
+    opacity: 1;
+}
+
+.ShowHeaders{
+    color: var(--color-font);
+    text-align: center;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    font-size: 3vw;
+    font-weight: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ShowImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 70%;
+    outline-color: black;
+    outline-style: solid;
+    outline-width: 4px;
+    opacity: 1;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.PreviousShows{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    height: 80%;
+    width: 75%;
+    outline-color: black;
+    outline-style: solid;
+    outline-width: 4px;
+    opacity: 1;
+}
+
+.RetiredShows{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5vw;
+    height: auto;
+    width: 55%;
+    outline-color: black;
+    outline-style: solid;
+    outline-width: 4px;
+    opacity: 1;
+    align-items: center;
+}
+
+.column {
+    width: 25%;
+    padding: 0.5vw;
+}
+  
+
+.row::after {
+    clear: both;
+    display: table;
+}
+
+/* PPV Subpage CSS */
+
+.PPVBanner{
+    display: block;
+    margin-top: 7%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 100%;
+    opacity: 1;
+    align-items: center;
+}
+
+.PPVLocation{
+    color: var(--color-font);
+    padding-left: 3%;
+    padding-top: 1%;
+    font-size: 150%;
+    font-weight: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.PPVDate{
+    color: var(--color-font);
+    padding-right: 3%;
+    padding-top: 1%;
+    font-size: 125%;
+    font-weight: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.PPVInfo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.PPVTitle{
+    color: var(--color-font);
+    padding-top: 30px;
+    font-size: 500%;
+    font-weight: 300%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.PPVSubTitle1{
+    color: var(--color-font);
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 375%;
+    font-weight: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.PPVSubTitle2{
+    color: var(--color-font);
+    padding-top: 30px;
+    padding-bottom: 50px;
+    font-size: 375%;
+    font-weight: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.PPVMC{
+    color: var(--color-font);
+    padding-top: 30px;
+    padding-bottom: 25px;
+
+}
+
+.PPVMC li{
+    list-style-type: none;
+    padding-bottom: 10px;
+    font-size: 200%;
+    font-weight: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.PPVMCTitle{
+    color: var(--color-font);
+    padding-top: 30px;
+    font-size: 350%;
+    font-weight: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.PPVMCChampionship{
+    color: var(--color-font);
+    padding-top: 5px;
+    font-size: 200%;
+    font-weight: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.PPVMCMatchType{
+    color: var(--color-font);
+    padding-top: 5px;
+    padding-bottom: 30px;
+    font-size: 170%;
+    font-weight: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.PPVMatches{
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 70%;
+    align-items: center;
+}
+
+.lineBreak{
+    width:100%;
+    height:4px;
+    background-color:#ffffff;
+    border:none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+/* Weekly Show Pages */
+
+.WeeklySubTitle1{
+    color: var(--color-font);
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 375%;
+    font-weight: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.WeeklySubTitle2{
+    color: var(--color-font);
+    padding-top: 30px;
+    padding-bottom: 50px;
+    font-size: 200%;
+    font-weight: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.ShowDescript{
+    color: var(--color-font);
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-size: 150%;
+    font-weight: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.centerRoster{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+
+/*Champions*/
+
+.RawTagTeamChampions{
+    margin-bottom: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: auto;
+    width: 15%;
+    opacity: 1;
+    background:url(/Images/SuperstarProfiles/ChampionBackgrounds/RawTagChampions.png);
+    background-size: 100% 100%;
+}
+.WomensWorldChampion{
+    margin-bottom: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: auto;
+    width: 15%;
+    opacity: 1;
+    background:url(/Images/SuperstarProfiles/ChampionBackgrounds/WomensWorldChampion.png);
+    background-size: 100% 100%;
+}
+
+
+
+
+.WorldChampion{
+    margin-bottom: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: auto;
+    width: 15%;
+    opacity: 1;
+    background:url(/Images/SuperstarProfiles/ChampionBackgrounds/WorldChampion.png);
+    background-size: 100% 100%;
+}
+.USChampion{
+    margin-bottom: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: auto;
+    width: 15%;
+    opacity: 1;
+    background:url(/Images/SuperstarProfiles/ChampionBackgrounds/USChampion.png);
+    background-size: 100% 100%;
+}
+
+
+
+
+.ECWWorldChampion{
+    margin-bottom: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: auto;
+    width: 20%;
+    opacity: 1;
+    background:url(/Images/SuperstarProfiles/ChampionBackgrounds/ECWWorldChampion.png);
+    background-size: 100% 100%;
+}
+.ECWTVChampion{
+    margin-bottom: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: auto;
+    width: 20%;
+    opacity: 1;
+    background:url(/Images/SuperstarProfiles/ChampionBackgrounds/ECWTVChampion.png);
+    background-size: 100% 100%;
+}
+.ECWTagTeamChampions{
+    margin-bottom: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: auto;
+    width: 20%;
+    opacity: 1;
+    background:url(/Images/SuperstarProfiles/ChampionBackgrounds/ECWTagTeamChampions.png);
+    background-size: 100% 100%;
+}
+.ECWWomensChampion{
+    margin-bottom: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: auto;
+    width: 20%;
+    opacity: 1;
+    background:url(/Images/SuperstarProfiles/ChampionBackgrounds/ECWWomensChampion.png);
+    background-size: 100% 100%;
+}
+
+
+.ECWSuperstarProfiles{
+    margin-bottom: 50px;
+    height: auto;
+    width: 13%;
+    opacity: 1;
+    background-image: url(/Images/ECWBackground.png);
+    background-size: 100% 100%;
+}
+.ECWWomensProfiles{
+    margin-bottom: 50px;
+    height: auto;
+    width: 17%;
+    opacity: 1;
+    background-image: url(/Images/ECWBackground.png);
+    background-size: 100% 100%;
+}
+.ECWTagTeamProfiles{
+    margin-bottom: 50px;
+    height: auto;
+    width: 20%;
+    opacity: 1;
+    background-image: url(/Images/ECWBackground.png);
+    background-size: 100% 100%;
+}
+
+.AllECWProfiles{
+    margin-bottom: 50px;
+    height: auto;
+    width: 13%;
+    opacity: 1;
+    background-image: url(/Images/ECWBackground.png);
+    background-size: 100% 100%;
+}
+
+
+/*ECW PAGE */
+
+.ECW{
+    background-image: url(/Images/ECWBackgroundV2.png); 
+    background-size: 50%, 1px;
+    background-repeat: repeat;
+}
+
+.ECWtab {
+    overflow: hidden;
+    background-color: var(--color-tab);
+    color: var(--color-font);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+  
+  /* Style the buttons inside the tab */
+.ECWtab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.1s;
+    font-size: 0.7vw;
+    color: var(--color-font);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+  
+  /* Change background color of buttons on hover */
+.ECWtab button:hover {
+    color: var(--color-ECW-hover);
+}
+
+
+  /* Create an active/current tablink class */
+.ECWtab button.active {
+    color: var(--color-ECW-hover);
+}
+  
+  /* Style the tab content */
+.tabcontent {
+    margin-bottom: 200px;
+    display: none;
+    border-top: none;
+}
+
+
+
+
+
+/*General Superstars Page Tab */
+
+.Generaltab {
+    overflow: hidden;
+    margin-top: 2vw;
+    background-color: rgb(0, 106, 34);
+    color: var(--color-font);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+  
+  /* Style the buttons inside the tab */
+.Generaltab button {
+    background-color: rgb(0, 106, 34);
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.1s;
+    font-size: 0.5;
+    color: var(--color-font);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+  
+  /* Change background color of buttons on hover */
+.Generaltab button:hover {
+    color: var(--color-General-hover);
+}
+
+
+  /* Create an active/current tablink class */
+.Generaltab button.active {
+    color: var(--color-General-hover);
+}
+  
+  /* Style the tab content */
+.tabcontent {
+    margin-bottom: 2vw;
+    display: none;
+    border-top: none;
+}

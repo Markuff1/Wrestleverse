@@ -9,7 +9,7 @@ body{
 }
 
 .SD{
-    background-size: 100vw 100vw;
+    background-size: 100vw 300vw;
     background-repeat: no-repeat;
 }
 
@@ -56,7 +56,7 @@ body{
 .SDSuperstarProfiles{
     margin-bottom: 50px;
     height: auto;
-    width: 13%;
+    width: 9.5vw;
     opacity: 1;
     background-image: url(/Images/SDBackground.png);
     background-size: 100% 100%;
@@ -64,7 +64,7 @@ body{
 .SDWomensProfiles{
     margin-bottom: 50px;
     height: auto;
-    width: 17%;
+    width: 11vw;
     opacity: 1;
     background-image: url(/Images/SDBackground.png);
     background-size: 100% 100%;
@@ -72,7 +72,7 @@ body{
 .SDTagTeamProfiles{
     margin-bottom: 50px;
     height: auto;
-    width: 20%;
+    width: 13vw;
     opacity: 1;
     background-image: url(/Images/SDBackground.png);
     background-size: 100% 100%;
@@ -81,7 +81,7 @@ body{
 .AllSDProfiles{
     margin-bottom: 50px;
     height: auto;
-    width: 13%;
+    width: 9.5vw;
     opacity: 1;
     background-image: url(/Images/SDBackground.png);
     background-size: 100% 100%;
@@ -131,9 +131,9 @@ body{
 
 .SDSubtitle1{
     color: var(--color-font);
-    padding-top: 30px;
-    padding-bottom: 10px;
-    font-size: 1.5vw;
+    margin-top: 1.2vw;
+    margin-bottom: 1.2vw;
+    font-size: 2vw;
     font-weight: 500px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
@@ -141,9 +141,9 @@ body{
 
 .SDSubtitle2{
     color: var(--color-font);
-    padding-top: 30px;
-    padding-bottom: 10px;
-    font-size: 1.2vw;
+    margin-top: 1.2vw;
+    margin-bottom: 1.2vw;
+    font-size: 2vw;
     font-weight: 500px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;

@@ -1,0 +1,59 @@
+
+/*------------News Page-------------*/
+
+.news{
+    background:linear-gradient(to right, rgb(0, 121, 38) ,rgb(0, 0, 0),rgb(0, 0, 0), rgb(0, 121, 38));
+    background-size: 100vw 100%;
+    background-repeat: no-repeat;
+}
+
+.container2{
+    padding: 10px 10%;
+    background:radial-gradient(closest-side, rgb(39, 39, 39) ,rgb(64, 64, 64),rgb(64, 64, 64), rgb(39, 39, 39));
+    background-size: 50%, 1px;
+    background-repeat: repeat;
+    background-clip: content-box;
+}
+
+.NewsBanner{
+        padding-top: 5vw;
+        padding-bottom: 1vw;
+        height: auto;
+        width: 100%;
+        opacity: 1;
+}
+
+.NewsHeader{
+    color: var(--color-font);
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    font-size: 2.5vw;
+    font-weight: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration-line: underline;
+    text-align: center;
+}
+
+.NewsDes{
+    color: var(--color-font);
+    padding-top: 1vw;
+    padding-bottom: 0.5vw;
+    font-size: 1.2vw;
+    font-weight: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+
+.NewsImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 55%;
+    outline-color: black;
+    outline-style: solid;
+    outline-width: 4px;
+    opacity: 1;
+    align-items: center;
+}
